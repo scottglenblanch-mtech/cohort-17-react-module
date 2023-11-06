@@ -1,0 +1,19 @@
+.main {
+  display: grid;
+  min-height: 100vh;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.firstLightContainer {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.secondLightContainer {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+
